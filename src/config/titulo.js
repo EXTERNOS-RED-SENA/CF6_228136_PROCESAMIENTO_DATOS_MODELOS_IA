@@ -1,2 +1,2 @@
 module.exports =
-  'Integración y gestión avanzada de datos para inteligencia artificial'
+  'Sistematización y documentación de datos masivos mediante métodos de analítica'

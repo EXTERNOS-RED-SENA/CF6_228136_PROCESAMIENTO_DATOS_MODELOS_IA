@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Integración y gestión avanzada de datos para inteligencia artificial',
+      'Sistematización y documentación de datos masivos mediante métodos de analítica',
     descripcionCurso:
-      'Este componente profundiza en las técnicas avanzadas de integración y gestión de datos para sistemas de inteligencia artificial. Abarca desde el modelamiento avanzado de bases de datos hasta el análisis exploratorio y la preparación sofisticada de datos, incluyendo metodologías de inteligencia de negocios. Proporciona las herramientas necesarias para implementar soluciones de gestión de datos en contextos empresariales modernos.',
+      'Este componente aborda las metodologías y prácticas para la sistematización y documentación efectiva de datos masivos en contextos analíticos. Explora desde la creación de documentación técnica hasta la gestión del conocimiento organizacional, incluyendo técnicas de comunicación y mejores prácticas. Proporciona herramientas fundamentales para garantizar la trazabilidad y aprovechamiento del conocimiento en proyectos de datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -24,23 +24,22 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Modelamiento avanzado de datos',
+        titulo: 'Documentación técnica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Reglas de negocio y metodologías',
+            titulo: 'Tipos de documentación',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Normalización y diseño de bases de datos',
+            titulo: 'Estándares y mejores prácticas',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo:
-              'Principios ACID (acrónimo en inglés de atomicidad, consistencia, aislamiento y durabilidad)',
+            titulo: 'Herramientas de documentación',
             hash: 't_1_3',
           },
         ],
@@ -48,22 +47,22 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Inteligencia de negocios',
+        titulo: 'Informes técnicos avanzados',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Bodegas de datos',
+            titulo: 'Estructura y organización',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Arquitecturas estrella y copo de nieve',
+            titulo: 'Metodologías de documentación',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Metodologías Kimball e Inmon',
+            titulo: 'Gestión de versiones',
             hash: 't_2_3',
           },
         ],
@@ -71,22 +70,22 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Análisis exploratorio de datos',
+        titulo: 'Técnicas de comunicación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Estadística descriptiva e inferencial',
+            titulo: 'Presentación de resultados',
             hash: 't_3_1',
           },
           {
             numero: '3.2',
-            titulo: 'Métodos de análisis univariable y multivariable',
+            titulo: 'Comunicación visual',
             hash: 't_3_2',
           },
           {
             numero: '3.3',
-            titulo: 'Técnicas de visualización',
+            titulo: 'Narrativa de datos',
             hash: 't_3_3',
           },
         ],
@@ -94,22 +93,22 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Preparación avanzada de datos',
+        titulo: 'Gestión del conocimiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Detección y tratamiento de errores',
+            titulo: 'Organización de la información',
             hash: 't_4_1',
           },
           {
             numero: '4.2',
-            titulo: 'Identificación de variables relevantes',
+            titulo: 'Control de versiones',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Transformación y validación de datos',
+            titulo: 'Mejores prácticas de mantenimiento',
             hash: 't_4_3',
           },
         ],
